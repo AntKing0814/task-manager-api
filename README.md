@@ -7,7 +7,7 @@ A REST API for managing tasks (create, read, update, delete), with a small web f
 ## Features
 - CRUD endpoints for tasks, with filtering (`GET /api/tasks?completed=true`)
 - Input validation with clear 400 errors; 404 for missing tasks
-- 15+ automated tests covering success and failure cases
+- 10+ automated tests covering success and failure cases
 - CI pipeline: tests run automatically on every pull request and push to `main` (Node 18 and 20)
 - Simple frontend to add, complete and delete tasks
 
